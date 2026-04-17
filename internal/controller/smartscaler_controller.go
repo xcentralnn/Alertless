@@ -11,7 +11,7 @@ import (
     ctrl "sigs.k8s.io/controller-runtime"
     "sigs.k8s.io/controller-runtime/pkg/client"
 
-    aiopsv1 "github.com/xcentralnn/kubecurator/api/v1alpha1"
+    aiopsv1 "github.com/xcentralnn/curator/api/v1alpha1"
 )
 
 type SmartScalerReconciler struct {

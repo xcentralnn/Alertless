@@ -7,7 +7,7 @@ import (
 
     ctrl "sigs.k8s.io/controller-runtime"
 
-    "github.com/xcentralnn/kubecurator/internal/controller"
+    "github.com/xcentralnn/curator/internal/controller"
 )
 
 func main() {
