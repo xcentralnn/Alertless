@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/logo.png" width="220"/>
+  <img src="./docs/curator-logo.png" width="220"/>
 </p>
 
 <h1 align="center">Curator</h1>
@@ -10,8 +10,8 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/xcentralnn/Alertless?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/xcentralnn/Alertless?style=social)
-![License](https://img.shields.io/badge/license-Apache--2.0-green)
-![Go](https://img.shields.io/badge/Go-1.20+-blue?logo=go)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Go](https://img.shields.io/badge/Go-1.25+-blue?logo=go)
 ![Prometheus](https://img.shields.io/badge/Prometheus-Alertmanager-orange?logo=prometheus)
 ![Webhook](https://img.shields.io/badge/Webhook-Driven-lightgrey)
 ![Status](https://img.shields.io/badge/status-active-success)
