@@ -1,10 +1,20 @@
 package v1alpha1
 
 import (
+	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 )
 
 var GroupVersion = schema.GroupVersion{
 	Group:   "curator.dev",
 	Version: "v1alpha1",
+}
+
+var SchemeBuilder = runtime.NewSchemeBuilder(addKnownTypes)
+
+var AddToScheme = SchemeBuilder.AddToScheme
+
+func addKnownTypes(scheme *runtime.Scheme) error {
+	scheme.AddKnownTypes(GroupVersion, &SmartScaler{}, &SmartScalerList{})
+	return nil
 }
