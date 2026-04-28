@@ -8,8 +8,8 @@
   Kubernetes-native intelligent control plane.
 </p>
 
-![GitHub stars](https://img.shields.io/github/stars/xcentralnn/Alertless?style=social)
-![GitHub forks](https://img.shields.io/github/forks/xcentralnn/Alertless?style=social)
+![GitHub stars](https://img.shields.io/github/stars/xcentralnn/Curator?style=social)
+![GitHub forks](https://img.shields.io/github/forks/xcentralnn/Curator?style=social)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Go](https://img.shields.io/badge/Go-1.25+-blue?logo=go)
 ![Prometheus](https://img.shields.io/badge/Prometheus-Alertmanager-orange?logo=prometheus)
